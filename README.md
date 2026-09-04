@@ -5,8 +5,8 @@
 Este projeto visa prever o Transtorno do Espectro Autista (TEA) com base nas respostas ao teste [AQ-10 Adult (Autism Spectrum Quotient 10)](https://bibliotecadeinstrumentos.com.br/instrumentos/autism-spectrum-quotient-adult-aq-10__2d1938f9-565e-44b8-8dd9-52d34ece6bf4/pdf). O processo envolve o carregamento de dados, pré-processamento, construção e treinamento de um modelo de rede neural usando TensorFlow/Keras e avaliação de seu desempenho.
 
 ## 📊 Dataset (Conjunto de Dados)
-O dataset escolhido está disponível em: [dataset evaluations](https://www.kaggle.com/datasets/stealthtechnologies/predict-autism-spectrum-disorder-asd/data) , sendo escolhido da plataforma do [kaggle](https://www.kaggle.com/).
-O conjunto de dados utilizado é proveniente do Kagglehub (`stealthtechnologies/predict-autism-spectrum-disorder-asd`) e contém as respostas ao questionário AQ-10, juntamente com informações demográficas e o diagnóstico final de TEA.
+- O dataset escolhido está disponível em: [dataset evaluations](https://www.kaggle.com/datasets/stealthtechnologies/predict-autism-spectrum-disorder-asd/data) , sendo escolhido da plataforma do [kaggle](https://www.kaggle.com/).
+- O conjunto de dados utilizado é proveniente do Kagglehub (`stealthtechnologies/predict-autism-spectrum-disorder-asd`) e contém as respostas ao questionário AQ-10, juntamente com informações demográficas e o diagnóstico final de TEA.
 
 ### ❓ Perguntas do Teste AQ-10
 O conjunto de dados inclui pontuações de A1_Score a A10_Score, correspondendo às seguintes perguntas:
@@ -21,11 +21,15 @@ O conjunto de dados inclui pontuações de A1_Score a A10_Score, correspondendo 
 - `A9_Score`: Sabe o que alguém está sentindo apenas olhando para o rosto da pessoa?
 - `A10_Score`: Tem dificuldade em descobrir as intenções das pessoas?
 
-## 📚 Bibliotecas Utilizadas
-- `pandas`: Para manipulação e análise de dados.
-- `numpy`: Para operações numéricas.
-- `matplotlib.pyplot`: Para plotagem de gráficos.
-- `seaborn`: Para visualizações de dados aprimoradas.
-- `tensorflow`: Para construir e treinar o modelo de rede neural.
-- `sklearn`: Para utilitários de aprendizado de máquina, como divisão de dados, pré-processamento e métricas de avaliação.
-- `kagglehub`: Para download do conjunto de dados.
+## 🛠️ Tecnologias Utilizadas
+
+- **Linguagem:** Python
+- **Bibliotecas:**
+
+    - `pandas`: Para manipulação e análise de dados.
+    - `numpy`: Para operações numéricas.
+    - `matplotlib.pyplot`: Para plotagem de gráficos.
+    - `seaborn`: Para visualizações de dados aprimoradas.
+    - `tensorflow`: Para construir e treinar o modelo de rede neural.
+    - `sklearn`: Para utilitários de aprendizado de máquina, como divisão de dados, pré-processamento e métricas de avaliação.
+    - `kagglehub`: Para download do conjunto de dados.
