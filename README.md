@@ -1,5 +1,5 @@
 
-# 🧠 Projeto: Previsão de Transtorno do Espectro Autista (TEA) usando Dados do Teste AQ-10
+# 🧠 Projeto: Classificação Binária de Previsão de Transtorno do Espectro Autista (TEA) Com Modelo Perceptron Multicamadas
 
 ## 📝 Visão Geral
 Este projeto visa prever o Transtorno do Espectro Autista (TEA) com base nas respostas ao teste [AQ-10 Adult (Autism Spectrum Quotient 10)](https://bibliotecadeinstrumentos.com.br/instrumentos/autism-spectrum-quotient-adult-aq-10__2d1938f9-565e-44b8-8dd9-52d34ece6bf4/pdf). O processo envolve o carregamento de dados, pré-processamento, construção e treinamento de um modelo de rede neural usando TensorFlow/Keras e avaliação de seu desempenho.
